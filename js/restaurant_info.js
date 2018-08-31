@@ -7,11 +7,11 @@ var newMap;
 document.addEventListener('DOMContentLoaded', (event) => {  
   initMap();
 });
-
 /**
  * Initialize leaflet map
  */
 initMap = () => {
+ 
   fetchRestaurantFromURL((error, restaurant) => {
     if (error) { // Got an error!
       console.error(error);
@@ -21,6 +21,7 @@ initMap = () => {
         zoom: 16,
         scrollWheelZoom: false
       });
+
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
         mapboxToken: 'pk.eyJ1Ijoia2FzaWFtYXp1ciIsImEiOiJjamwzOWdvYmcwNWpzM3ZyeGQ1N2l0c2JjIn0.5M4pwqPO9bw-OJwatHh3TA',
         maxZoom: 18,
