@@ -11,8 +11,8 @@ For the **Restaurant Reviews** project, the students were given a starter code f
 
 ## Installation
 
-1. Clone or download the project from the [respository](https://github.com/KatarzynaMaz/mws-restaurant-stage-1) to your     local machine and open it with your favorite text editor.
-2. Run server via terminal with "$ python -m http.server" command (if you need to install Python, go to Python's [website]
+1. Clone or download the project from the [respository](https://github.com/KatarzynaMaz/mws-restaurant-stage-1) to your      local machine and open it with your favorite text editor.
+2. Run server from inside of the new directoryvia terminal with "$ python -m http.server" command (if you need to install    Python, go to Python's [website]
    (https://www.python.org))
 3. Navigate to local host in your browser `http://localhost:8000` to test the project.
 
