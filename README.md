@@ -9,18 +9,23 @@ For the **Restaurant Reviews** project, the students were given a starter code f
 
  The code provided by Udacity had a lot of issues. It was barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all.
 
-### Installation
+## Installation
 
-1. Clone the repository from   
+1. Clone or download the project from the [respository] (https://github.com/KatarzynaMaz/mws-restaurant-stage-1) to your     local machine and open it with your favorite text editor.
 2. Run server via terminal with "$ python -m http.server" command (if you need to install Python, go to Python's [website]
-    (https://www.python.org)) to download and install the software. 
-3. Navigate to local host in your browser `http://localhost:8000`
+   (https://www.python.org))l 
+3. Navigate to local host in your browser `http://localhost:8000` to test the project.
 
 ## Dependencies
 
 This repository uses [leafletjs](https://leafletjs.com/) with and API key [Mapbox](https://www.mapbox.com/).
 
 ## Acknowledgements
+
+1. Matthew Cranford Walkthrough [blog] (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/)
+2. Doug Brown's webinar [video] (https://www.youtube.com/watch?v=92dtrNU1GQc)
+3. Mohmed Riaad walkthough [video] (https://www.youtube.com/watch?v=jsGs9z7TuyY)
+4. Knowledge and Slack discussion
 
 ### Note about ES6
 
